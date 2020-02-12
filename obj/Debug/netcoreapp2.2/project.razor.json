@@ -2961,13 +2961,8 @@
   "RootNamespace": "Paiting",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Home\\Gallery.cshtml",
+      "TargetPath": "Views\\Home\\Gallery.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2976,18 +2971,28 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Home\\Home.cshtml",
+      "TargetPath": "Views\\Home\\Home.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Home\\Reviews.cshtml",
+      "TargetPath": "Views\\Home\\Reviews.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Home\\ContactUs.cshtml",
+      "TargetPath": "Views\\Home\\ContactUs.cshtml",
       "FileKind": "mvc"
     },
     {

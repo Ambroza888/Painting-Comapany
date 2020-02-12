@@ -10,12 +10,21 @@ namespace Paiting.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        [HttpGet("")]
+        public IActionResult Home()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Gallery()
+        {
+            return View();
+        }
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+        public IActionResult Reviews()
         {
             return View();
         }
