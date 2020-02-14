@@ -125,3 +125,7 @@
     background-position: center center;
     background-repeat:no-repeat;
   }
+
+  .gap100 {
+      padding: 75px 0px;
+  }
