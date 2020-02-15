@@ -78,7 +78,7 @@
     background-repeat: no-repeat;
   }
   
-  .background_img {
+  /* .background_img {
     width: 100%;
     height: 100%;
     background: url("../images/main.jpg") no-repeat center center fixed; 
@@ -89,43 +89,98 @@
     background-position: center center;
     min-height: 28rem; 
     background-size: auto 100%;
-  }
+  } */
   .buffer {
     height: 1rem;
   }
   hr {
-      border-color: #f05f44;
+      border-color: #fd3;
       border-width: 3px;
       max-width: 100px;
+      z-index: 1;
+      position: relative;
   }
   .btn {
       font-weight: 700;
       text-transform: uppercase;
       border-radius: 300px;
+      position: relative;
+      z-index: 1;
   }
   .btn-xl {
     padding: 1rem 2rem;
   }
   .btn-primary {
-    background-color: #f05f44;
-    border-color:#f05f44;
+      background-color: #ffdd00;
+      border-color: #ffdd00;
+    }
+    .btn-primary:hover {
+        background-color: orange;
+        border-color: orange;
+        border-width: 4px;
   }
-  .btn-primary:hover {
-      background-color: #ee4b08;
-      border-color: #ee4b08;
-      border-width: 4px;
-  }
-  .moto {
-      font-size: 3rem;
-      color: #fff;
-  }
-  .truckimg {
-    background-image: url("../images/truck.png") no-repeat center center fixed;
-    background-size: auto 100%;
-    background-position: center center;
-    background-repeat:no-repeat;
-  }
-
   .gap100 {
       padding: 75px 0px;
-  }
+    }
+    #quote {
+        background-image: url("../images/main.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: bottom;
+        position: relative;
+    }
+    .bg-blue::after {
+        position: absolute;
+        content: " ";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        background-color: #00154f;
+        opacity: 0.5;
+    }
+    .moto {
+        font-size: 3rem;
+        color: #f4af1b;
+        position: relative;
+        z-index: 1;
+    }
+    .h1 {
+        color: #f4af1b;
+        font-weight: 800;
+    }
+    .p {
+        color: #f4af1b;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .commercial {
+        background-image: url("../images/comercial.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        min-height: 170px;
+        /* position: relative; */
+    }
+    .colorconsultation {
+        background-image: url("../images/colorconsultation.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 170px;
+    }
+    .interiorpainting {
+        background-image: url("../images/Interiorpainting.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        min-height: 170px;
+    }
+    h3 {
+        color: #f4af1b;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+    }
