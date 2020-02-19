@@ -211,3 +211,17 @@
         width: 150px;
         height: 150px;
     }
+
+    li {
+        list-style-type: none;
+        font-size: 20px;
+    }
+    .red {
+        color: #d2232a;
+        font-size: 20px;
+    }
+    .size {
+        width: 25px;
+        height: 25px;
+    }
+    
