@@ -201,7 +201,6 @@
         background-size: cover;
         background-position: center;
         position: relative;
-        min-height: 300px;
     }
     .frontend {
         position: relative;
