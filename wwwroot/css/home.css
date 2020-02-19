@@ -111,12 +111,12 @@
     padding: 1rem 2rem;
   }
   .btn-primary {
-      background-color: #ffdd00;
-      border-color: #ffdd00;
+      background-color: orange;
+      border-color: orange;
     }
     .btn-primary:hover {
-        background-color: orange;
-        border-color: orange;
+        background-color: #ffdd00;
+        border-color: #ffdd00;
         border-width: 4px;
   }
   .gap100 {
@@ -150,6 +150,10 @@
     .h1 {
         color: #f4af1b;
         font-weight: 800;
+    }
+    h2 {
+        color: #f4af1b;
+        font-weight: 700;
     }
     .p {
         color: #f4af1b;
@@ -190,4 +194,21 @@
         position: relative;
         z-index: 1;
         width: 100%;
+    }
+    #whyus {
+        background-image: url("../images/certification.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        min-height: 300px;
+    }
+    .frontend {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+    }
+    .imgsize {
+        width: 150px;
+        height: 150px;
     }
