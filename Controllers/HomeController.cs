@@ -15,19 +15,33 @@ namespace Paiting.Controllers
         {
             return View();
         }
-
+        [HttpGet("/Gallery")]
         public IActionResult Gallery()
         {
-            return View();
+            return View("Gallery");
         }
+        [HttpGet("/ContactUs")]
         public IActionResult ContactUs()
         {
-            return View();
+            return View("ContactUs");
         }
         public IActionResult Reviews()
         {
             return View();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
