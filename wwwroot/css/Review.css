@@ -1,0 +1,23 @@
+#sidebar-wrapper {
+    border-right: 1px solid #cdcdcd;
+}
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+h1, h2, h5 ,h6 , body {
+    letter-spacing: 0.02em;
+}
+.bold {
+    font-weight: bold;
+}
+ul {
+    padding: 0.5em 2em;
+}
+.borderbottom {
+    border-bottom: 1px solid #cdcdcd;
+}
+.gap100 {
+    padding: 75px 0px;
+  }
