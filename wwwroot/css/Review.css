@@ -9,10 +9,6 @@ li {
     list-style-type: none;
     text-decoration: none;
 }
-
-h1, h2, h5 ,h6 , body {
-    letter-spacing: 0.02em;
-}
 .bold {
     font-weight: bold;
 }
@@ -41,14 +37,3 @@ h1, h2, h5 ,h6 , body {
     background-color: #00154f;
     opacity: 0.5;
 }
-/* .bg-overlay {
-    background: linear-gradient(rgba(94, 104, 214, 0.7), rgba(218, 183, 183, 0.7)), url("https://raw.githubusercontent.com/Ambroza888/Python_proj/master/apps/paint/static/my_apps/images/rating.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: auto;
-    background-position: auto;
-    color: #fff;
-    min-height: 450px;
-    /* padding-top: 50px; */
-    object-fit: cover;
-} */
