@@ -29,14 +29,12 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-9">
                 <div class="container text-center">
-                        <img class="col-9" src="https://raw.githubusercontent.com/Ambroza888/Python_proj/master/apps/paint/static/my_apps/images/rating.jpg" alt="">
+                    <img class="col-9" src="https://raw.githubusercontent.com/Ambroza888/Python_proj/master/apps/paint/static/my_apps/images/rating.jpg" alt="">
                 </div>
-
-
 
                <section id="Reviews" class="text-center gap100">
                     <h1 class="colorblue">Reviews</h1>
-                    <div class="row mt-5">
+                    <div class="row mt-5 underscore">
                         <div class="col-md-2">
                             <img src="https://standaloneinstaller.com/upload/avatar.png" alt="">
                         </div>
@@ -58,34 +56,34 @@
                     <div class="row mt-5">
                         <div class="col-12 text-left">
                             <h3>Write a Review</h3>
-                            <form action="PLACEHOLDER" class="mt-4">
+                            <form action="#######################" class="mt-4" method="POST">
                                 <h5>Comment</h5>
-                                <textarea class="form-control" required="required" rows="8"></textarea>
+                                <span asp-validation-for="Text"></span>
+                                <textarea class="form-control" required="required" rows="8" asp-for="Text"></textarea>
                                 <div class="row mt-3 p-0">
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                                        <input type="text">
+                                        <span asp-validation-for="FirstName"></span>
+                                        <input asp-for="FirstName" placeholder="First Name*">
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                                        <input type="text">
+                                        <input asp-for="LastName" placeholder="Last Name*">
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                                        <input type="text">
+                                        <input asp-for="Area" placeholder="Area*">
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                                        <select name="" id="">
+                                        <select asp-for="Rating">
                                             <option value="0">Rating</option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
+                                            <option value="1">1 Star</option>
+                                            <option value="2">2 Stars</option>
+                                            <option value="3">3 Stars</option>
+                                            <option value="4">4 Stars</option>
+                                            <option value="5">5 Stars</option>
                                         </select>
                                     </div>
                                 </div>
                                 <button class="btn btn-primary btn-xl">Submit Review</button>
                             </form>
-                        </div>
-                            </div>
                         </div>
                     </div>
                </section>
