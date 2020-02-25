@@ -8,15 +8,16 @@ namespace Paiting
     {
         public int ReviewId {get;set;}
         [Required]
-        [MinLength(2,ErrorMessage="Your name needs to be more than 2 characters")]
+        [MinLength(2,ErrorMessage="Your First Name, needs to be more than 2 characters")]
         public string FirstName {get;set;}
         [Required]
+        [MinLength(2,ErrorMessage="Your Last Name, needs to be more than 2 characters")]
         public string LastName {get;set;}
         [Required]
         [MinLength(2,ErrorMessage="Comment needs to be more than 2 characters")]
         public string Text {get;set;}
         [Required]
-        [Range(1,5)]
+        [Range(0,5,ErrorMessage="Please, choose Rating")]
         public int Rating {get;set;}
         [Required]
         public string Area {get;set;}

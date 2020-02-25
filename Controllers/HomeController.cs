@@ -5,11 +5,20 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Paiting.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Paiting.Controllers
 {
     public class HomeController : Controller
     {
+        private MyContext DbContext;
+        public HomeController(MyContext context)
+        {
+            DbContext = context;
+        }
+        //==================================================
+
         [HttpGet("")]
         public IActionResult Home()
         {
@@ -24,6 +33,18 @@ namespace Paiting.Controllers
         public IActionResult ContactUs()
         {
             return View("ContactUs");
+        }
+        [HttpPost("/CreateReview")]
+        public IActionResult CreateReview(Review review)
+        {
+            if(review.Rating == 0)
+            {
+                ModelState.AddModelError("Rating","Please, choose Rating");
+                return View("Reviews");
+            }
+            DbContext.Add(review);
+            DbContext.SaveChanges();
+            return Redirect("Reviews");
         }
         public IActionResult Reviews()
         {
