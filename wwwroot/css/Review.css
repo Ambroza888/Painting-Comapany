@@ -1,6 +1,5 @@
 #sidebar-wrapper {
     border-right: 1px solid #cdcdcd;
-    /* padding-bottom: 2rem; */
 }
 .sidebar {
     padding-bottom: 2rem;
@@ -23,7 +22,6 @@ li {
     font-weight: 700;
 }
 .smallp {
-    /* font-size: 15px; */
     font-weight: 700;
 }
 .bg-blue::after {
@@ -36,4 +34,24 @@ li {
     z-index: 0;
     background-color: #00154f;
     opacity: 0.5;
+}
+input {
+    padding-right: 0.35em;
+    padding-bottom: 0.45em;
+}
+select {
+    padding: 0.31em;
+    padding-right: 7em;
+}
+.btn-xl {
+    padding: 1rem 2rem;
+  }
+.btn-primary {
+    background-color: orange;
+    border-color: orange;
+}
+.btn-primary:hover {
+    background-color: #ffdd00;
+    border-color: #ffdd00;
+    border-width: 4px;
 }
