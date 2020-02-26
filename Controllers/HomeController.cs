@@ -24,31 +24,49 @@ namespace Paiting.Controllers
         {
             return View();
         }
+
+
         [HttpGet("/Gallery")]
         public IActionResult Gallery()
         {
             return View("Gallery");
         }
+
+
         [HttpGet("/ContactUs")]
         public IActionResult ContactUs()
         {
             return View("ContactUs");
         }
+
+
         [HttpPost("/CreateReview")]
         public IActionResult CreateReview(Review review)
         {
-            if(review.Rating == 0)
+            if(ModelState.IsValid)
             {
-                ModelState.AddModelError("Rating","Please, choose Rating");
+                if(review.Rating == 0)
+                {
+                    ModelState.AddModelError("Rating","Please, choose Rating");
+                    return View("Reviews");
+                }
+                DbContext.Add(review);
+                DbContext.SaveChanges();
+                return Redirect("Reviews");
+            }
+            else
+            {
+                ViewBag.errors = ModelState.Values;
                 return View("Reviews");
             }
-            DbContext.Add(review);
-            DbContext.SaveChanges();
-            return Redirect("Reviews");
         }
+
+        [HttpGet("/Reviews")]
         public IActionResult Reviews()
         {
-            return View();
+            List<Review> all_reviews = DbContext.Reviews.ToList();
+            ViewBag.all_reviews = all_reviews;
+            return View("Reviews");
         }
 
 
