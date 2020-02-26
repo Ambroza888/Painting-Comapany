@@ -64,7 +64,7 @@ namespace Paiting.Controllers
         [HttpGet("/Reviews")]
         public IActionResult Reviews()
         {
-            List<Review> all_reviews = DbContext.Reviews.ToList();
+            List<Review> all_reviews = DbContext.Reviews.OrderByDescending(w => w.CreatedAt).ToList();
             ViewBag.all_reviews = all_reviews;
             return View("Reviews");
         }

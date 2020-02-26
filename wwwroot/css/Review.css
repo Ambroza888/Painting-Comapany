@@ -64,3 +64,16 @@ select {
 span {
     color: red;
 }
+.test {
+    overflow-wrap: break-word;
+}
+.fa-star {
+    color: #ffc107;
+}
+.notchecked {
+    color: black;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+}
