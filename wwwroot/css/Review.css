@@ -78,3 +78,12 @@ select {
     top: 0;
 
 } */
+
+.size {
+    width: 25px;
+    height: 25px;
+  }
+  #GDP {
+    text-decoration: none;
+    color: #f4af1b;
+  }
