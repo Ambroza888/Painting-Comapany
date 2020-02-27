@@ -8,6 +8,17 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
 }
+.navbar-collapse ul li .hofer {
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.navbar-collapse ul li .hofer:hover {
+  color: #ffc107;
+  background-color: #00154f;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
 
 /* Sticky footer styles
 -------------------------------------------------- */

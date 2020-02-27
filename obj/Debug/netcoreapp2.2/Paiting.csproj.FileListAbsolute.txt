@@ -29,3 +29,4 @@ C:\Users\Administrator\Desktop\Code\Paiting\obj\Debug\netcoreapp2.2\Razor\Views\
 C:\Users\Administrator\Desktop\Code\Paiting\obj\Debug\netcoreapp2.2\Razor\Views\Home\ContactUs.g.cshtml.cs
 C:\Users\Administrator\Desktop\Code\Paiting\obj\Debug\netcoreapp2.2\Razor\Views\Home\Gallery.g.cshtml.cs
 C:\Users\Administrator\Desktop\Code\Paiting\obj\Debug\netcoreapp2.2\Razor\Views\Home\Reviews.g.cshtml.cs
+C:\Users\Administrator\Desktop\Code\Paiting\obj\Debug\netcoreapp2.2\Razor\Views\Home\footerPartial.g.cshtml.cs

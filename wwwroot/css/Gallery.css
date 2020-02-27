@@ -1,0 +1,18 @@
+/* ===footer decoration === */
+.size {
+    width: 25px;
+    height: 25px;
+}
+#GDP {
+    text-decoration: none;
+    color: #f4af1b;
+}
+li {
+    list-style-type: none;
+    font-size: 20px;
+}
+.red {
+    color: #d2232a;
+    font-size: 20px;
+}
+/* =================== */

@@ -87,3 +87,6 @@ select {
     text-decoration: none;
     color: #f4af1b;
   }
+  .fa {
+      font-size: 11px;
+  }
