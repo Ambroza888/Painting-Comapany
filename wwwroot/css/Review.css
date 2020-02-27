@@ -61,9 +61,9 @@ select {
     border-bottom: 1px solid #eee;
     padding-bottom: 3rem;
 }
-/* span {
+.red {
     color: red;
-} */
+}
 .test {
     overflow-wrap: break-word;
 }
