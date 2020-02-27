@@ -36,7 +36,7 @@
                         {
                             @foreach (Review i in @ViewBag.all_reviews)
                             {
-                            <div class="row mt-5">
+                            <div class="row mt-5 notViewed animBlock" data-offset="60" data-position="left">
                                 <div class="col-md-2">
                                     <img src="https://standaloneinstaller.com/upload/avatar.png" alt="">
                                 </div>
@@ -136,4 +136,3 @@
                 </div>
             </div>
         </div>
-        <script src="~/js/site.js"></script>
