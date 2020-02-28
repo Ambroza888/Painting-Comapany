@@ -131,6 +131,6 @@ logo */
   }
 
   #shaky:hover {
-    animation: shake 0.5s;
+    animation: shake 1.3s;
     animation-iteration-count: infinite;
   }
