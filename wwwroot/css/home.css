@@ -152,28 +152,28 @@
         background-repeat: no-repeat;
         background-size: auto;
         background-position: center;
-        min-height: 170px;
+        min-height: 20vh;
     }
     .colorconsultation {
         background-image: url("../images/colorconsultation.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        min-height: 170px;
+        min-height: 20vh;
     }
     .interiorpainting {
         background-image: url("../images/Interiorpainting2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        min-height: 170px;
+        min-height: 20vh;
     }
     .exteriorpainting {
         background-image: url("../images/exteriorpainting.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        min-height: 170px;
+        min-height: 20vh;
     }
     #whyus {
         background-image: url("../images/certification.jpg");
