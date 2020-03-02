@@ -4,7 +4,6 @@ for details on configuring this project to bundle and minify static web assets. 
   font-family: 'Sorts Mill Goudy', serif;
 }
 /* ================= Adding Animate.css ================== */
-@charset "UTF-8";
 
 /*!
  * animate.css -https://daneden.github.io/animate.css/
@@ -3629,7 +3628,7 @@ for details on configuring this project to bundle and minify static web assets. 
     animation-iteration-count: 1 !important;
   }
 }
-/* ============== End of Animate.css ================*/
+/* End of Animate.css */
 a.navbar-brand {
   white-space: normal;
   text-align: center;
