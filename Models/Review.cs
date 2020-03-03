@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Paiting
+namespace Paiting.Models
 {
     public class Review
     {
