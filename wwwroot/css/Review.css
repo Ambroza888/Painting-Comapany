@@ -90,3 +90,11 @@ select {
   .fa {
       font-size: 11px;
   }
+  .ratingimg {
+      /* margin: 30px; */
+      background-image: url("../images/rating.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 34vh;
+  }

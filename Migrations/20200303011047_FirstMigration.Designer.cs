@@ -9,7 +9,7 @@ using Paiting.Models;
 namespace Paiting.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20200226194453_FirstMigration")]
+    [Migration("20200303011047_FirstMigration")]
     partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -19,7 +19,7 @@ namespace Paiting.Migrations
                 .HasAnnotation("ProductVersion", "2.2.4-servicing-10062")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("Paiting.Review", b =>
+            modelBuilder.Entity("Paiting.Models.Review", b =>
                 {
                     b.Property<int>("ReviewId")
                         .ValueGeneratedOnAdd();
