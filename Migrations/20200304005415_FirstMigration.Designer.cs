@@ -9,7 +9,7 @@ using Paiting.Models;
 namespace Paiting.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20200303011047_FirstMigration")]
+    [Migration("20200304005415_FirstMigration")]
     partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -45,6 +45,32 @@ namespace Paiting.Migrations
                     b.HasKey("ReviewId");
 
                     b.ToTable("Reviews");
+                });
+
+            modelBuilder.Entity("Paiting.Models.User", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("CreatedAt");
+
+                    b.Property<string>("Email")
+                        .IsRequired();
+
+                    b.Property<string>("FirstName")
+                        .IsRequired();
+
+                    b.Property<string>("LastName")
+                        .IsRequired();
+
+                    b.Property<string>("Password")
+                        .IsRequired();
+
+                    b.Property<DateTime>("UpdatedAt");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

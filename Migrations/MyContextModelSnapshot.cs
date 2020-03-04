@@ -44,6 +44,32 @@ namespace Paiting.Migrations
 
                     b.ToTable("Reviews");
                 });
+
+            modelBuilder.Entity("Paiting.Models.User", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("CreatedAt");
+
+                    b.Property<string>("Email")
+                        .IsRequired();
+
+                    b.Property<string>("FirstName")
+                        .IsRequired();
+
+                    b.Property<string>("LastName")
+                        .IsRequired();
+
+                    b.Property<string>("Password")
+                        .IsRequired();
+
+                    b.Property<DateTime>("UpdatedAt");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Users");
+                });
 #pragma warning restore 612, 618
         }
     }
