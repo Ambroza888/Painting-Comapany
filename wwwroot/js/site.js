@@ -50,3 +50,6 @@ $(function() {
       }
     }
   }
+
+  // < ----- Button for clicking to open MODAL LOGIN ---- >
+
