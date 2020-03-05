@@ -1,4 +1,5 @@
-        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/footer.css">
+        
         <section>
         <div class="container gap100">
             <div class="row">
@@ -28,8 +29,52 @@
                                 <li>West Seattle, WA</li>
                             </ul>
                             <ul class="col">
-                                <li>Seatac, WA</li>
-                                <li>More Areas Served</li>
+                                <li onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Seatac, WA</li> 
+                                    <div id="id01" class="modal"> 
+                                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span> 
+                                        <form class="modal-content animate" action="/action_page.php"> 
+                                            <div class="container"> 
+                                                <label><b>Email</b></label> 
+                                                <input type="text" placeholder="Enter Email" name="email" required> 
+
+                                                <label><b>Password</b></label> 
+                                                <input type="password" placeholder="Enter Password" name="psw" required> 
+                                
+                                                <label><b>Repeat Password</b></label> 
+                                                <input type="password" placeholder="Repeat Password" name="psw-repeat" required> 
+                                                <input type="checkbox"> Remember me 
+                                                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p> 
+                                
+                                                <div class="clearfix"> 
+                                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> 
+                                                    <button type="submit" class="signupbtn">Sign Up</button> 
+                                                </div> 
+                                            </div> 
+                                        </form> 
+                                    </div> 
+                                 <li onclick="document.getElementById('id01').style.display='block'" style="width:auto;">More Areas Served</li> 
+                                    <div id="id01" class="modal"> 
+                                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span> 
+                                        <form class="modal-content animate" action="/action_page.php"> 
+                                            <div class="container"> 
+                                                <label><b>Email</b></label> 
+                                                <input type="text" placeholder="Enter Email" name="email" required> 
+
+                                                <label><b>Password</b></label> 
+                                                <input type="password" placeholder="Enter Password" name="psw" required> 
+                                
+                                                <label><b>Repeat Password</b></label> 
+                                                <input type="password" placeholder="Repeat Password" name="psw-repeat" required> 
+                                                <input type="checkbox"> Remember me 
+                                                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p> 
+                                
+                                                <div class="clearfix"> 
+                                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> 
+                                                    <button type="submit" class="signupbtn">Sign Up</button> 
+                                                </div> 
+                                            </div> 
+                                        </form> 
+                                    </div> 
                             </ul>
                     </div>
                 </div>

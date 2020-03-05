@@ -51,6 +51,7 @@ $(function() {
     }
   }
 
+  
   // < ----- Button for clicking to open MODAL LOGIN ---- >
   var modal = document.getElementById('id01'); 
   
