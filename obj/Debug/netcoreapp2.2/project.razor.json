@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Paiting.csproj",
+  "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Paiting.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,53 +2961,53 @@
   "RootNamespace": "Paiting",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Home\\Gallery.cshtml",
-      "TargetPath": "Views\\Home\\Gallery.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Home\\footerPartial.cshtml",
-      "TargetPath": "Views\\Home\\footerPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Home\\Home.cshtml",
-      "TargetPath": "Views\\Home\\Home.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Home\\Reviews.cshtml",
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Views\\Home\\Reviews.cshtml",
       "TargetPath": "Views\\Home\\Reviews.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Home\\ContactUs.cshtml",
-      "TargetPath": "Views\\Home\\ContactUs.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Views\\Home\\Home.cshtml",
+      "TargetPath": "Views\\Home\\Home.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Views\\Home\\Gallery.cshtml",
+      "TargetPath": "Views\\Home\\Gallery.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Views\\Home\\ContactUs.cshtml",
+      "TargetPath": "Views\\Home\\ContactUs.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Views\\Home\\footerPartial.cshtml",
+      "TargetPath": "Views\\Home\\footerPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

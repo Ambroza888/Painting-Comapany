@@ -12155,11 +12155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Paiting.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Paiting.csproj",
       "projectName": "Paiting",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Code\\Paiting\\Paiting.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\Paiting.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\Code\\Paiting\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\Code\\IMBA\\Painting-Comapany\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
